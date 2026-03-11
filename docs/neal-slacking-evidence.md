@@ -22,6 +22,18 @@
 
 ![](assets/neal-slacking-evidence/2026-03-05-15-17-52-image.png)
 
+## 3/11
+
+早上例會報告: 昨天看停用和啟用使用的API，停用還沒接BizForm的API，啟用就用跟邀請使用者的API，今天開始做
+
+可是大早上又再提交自己專案?
+
+![](assets/neal-slacking-evidence/2026-03-11-11-09-22-image.png)
+
+再看看他對我們專案提交的東西，看起來好像很忙，實際看起來不就是裝忙嗎?
+
+![](assets/neal-slacking-evidence/2026-03-11-11-16-20-image.png)
+
 ## 3/6
 
 今天是慈濟專案上線日，但是他仍有心思做自己的專案?

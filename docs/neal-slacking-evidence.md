@@ -22,6 +22,14 @@
 
 ![](assets/neal-slacking-evidence/2026-03-05-15-17-52-image.png)
 
+## 3/12
+
+Wilson 表示 Neal 爸爸出狀況今天請假，當前功能已經開發完，功能是使用者停用 BizForm 那邊也要同步停用，但我上去看他的私人倉庫，他都在做自己項目? 所以早上例會沒參加真的是爸爸生病嗎?
+
+![](assets/neal-slacking-evidence/2026-03-12-22-50-52-image.png)
+
+
+
 ## 3/11
 
 早上例會報告: 昨天看停用和啟用使用的API，停用還沒接BizForm的API，啟用就用跟邀請使用者的API，今天開始做

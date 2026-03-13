@@ -47,7 +47,12 @@ def check_commits():
                     f"- **訊息**: {commit_msg}\n"
                     f"- **連結**: [檢視 Commit]({c['html_url']})"
                 )
-                requests.post(MM_WEBHOOK, json={"text": msg})
+                payload = {
+                    "text": msg,
+                    "username": "摸魚監控員",
+                    "icon_emoji": ":detective:"
+                }
+                requests.post(MM_WEBHOOK, json=payload)
     
     if not found_any:
         print(f"{datetime.now()}: 沒有發現新提交。")

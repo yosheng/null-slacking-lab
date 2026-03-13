@@ -2,8 +2,8 @@ name: Hourly Commit Monitor
 
 on:
   schedule:
-    # 每小時執行一次 (例如 13:05, 14:05...)
-    - cron: '5 * * * *'
+    # 每小時執行一次 (例如 13:23, 14:23...)
+    - cron: '23 * * * *'
   workflow_dispatch:
 
 jobs:

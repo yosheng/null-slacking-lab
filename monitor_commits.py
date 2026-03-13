@@ -24,8 +24,8 @@ def get_active_repos():
     return []
 
 def check_commits():
-    # 設定時間範圍：過去 60 分鐘 (多加 1 分鐘緩衝避免邊際遺漏)
-    time_threshold = datetime.utcnow() - timedelta(minutes=61)
+    # 設定時間範圍：過去 180 分鐘 (多加 1 分鐘緩衝避免邊際遺漏)
+    time_threshold = datetime.utcnow() - timedelta(minutes=181)
     since_time = time_threshold.isoformat() + "Z"
     
     repos = get_active_repos()

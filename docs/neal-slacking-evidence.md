@@ -22,13 +22,33 @@
 
 ![](assets/neal-slacking-evidence/2026-03-05-15-17-52-image.png)
 
+項目地址: [GitHub - Neal75418/MyWorkItem: Task management system built with .NET 10 Clean Architecture + PostgreSQL. Docker Compose one-command startup. · GitHub](https://github.com/Neal75418/MyWorkItem)
+
+項目截圖:
+
+![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
+
+## 3/13
+
+早上例會報告: 看今天下午有什麼需要支援修改的地方
+
+一個下午都在做自己的專案?
+
+![](assets/neal-slacking-evidence/2026-03-13-19-59-05-image.png)
+
+我們內部跟慈濟討論上線的問題，他卻一點也不關心 Monday 上的問題直到傍晚還能新開專案?
+
+![](assets/neal-slacking-evidence/2026-03-13-19-57-27-image.png)
+
+對公司的提交內容卻停留在早上10點而已?
+
+![](assets/neal-slacking-evidence/2026-03-13-19-56-31-image.png)
+
 ## 3/12
 
 Wilson 表示 Neal 爸爸出狀況今天請假，當前功能已經開發完，功能是使用者停用 BizForm 那邊也要同步停用，但我上去看他的私人倉庫，他都在做自己項目? 所以早上例會沒參加真的是爸爸生病嗎?
 
 ![](assets/neal-slacking-evidence/2026-03-12-22-50-52-image.png)
-
-
 
 ## 3/11
 

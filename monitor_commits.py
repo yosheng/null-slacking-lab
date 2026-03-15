@@ -41,7 +41,7 @@ def check_commits():
             for c in commits:
                 # 解析時間與格式化
                 raw_date = c['commit']['author']['date']
-                dt = datetime.fromisoformat(raw_date.replace('Z', '+00:00'))
+                dt = datetime.fromisoformat(raw_date.replace('Z', '+08:00'))
                 formatted_date = dt.strftime('%Y-%m-%d %H:%M:%S')
                 
                 commit_msg = c['commit']['message'].split('\n')[0]
@@ -56,7 +56,6 @@ def check_commits():
     # 如果有收集到任何提交，整合後發送一次
     if all_commit_messages:
         header = f"🛠️ **GitHub 提交彙報 (過去 2 小時)**\n"
-        header += "---" # 分隔線
         
         # 使用兩個換行符隔開每個 commit，避免視覺太擠
         final_msg = header + "\n" + "\n\n".join(all_commit_messages)

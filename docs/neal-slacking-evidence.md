@@ -28,6 +28,24 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 3/17
+
+早上例會報告: 昨天把臨時補助改成一次性補助，我已經改好，昨天Phill說的問題，可能要請Dennis提供SSH的Key查看問題
+
+可是下午都在做自己專案啊?
+
+![](assets/neal-slacking-evidence/2026-03-17-20-18-23-image.png)
+
+![](assets/neal-slacking-evidence/2026-03-17-22-32-16-image.png)
+
+## 3/16
+
+早上例會報告: 我都在開會，沒有進展
+
+下午又跑去做自己專案?
+
+![](assets/neal-slacking-evidence/2026-03-17-22-32-53-image.png)
+
 ## 3/13
 
 早上例會報告: 看今天下午有什麼需要支援修改的地方

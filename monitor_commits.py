@@ -41,7 +41,7 @@ def check_commits():
             for c in commits:
                 # 解析時間與格式化
                 raw_date = c['commit']['author']['date']
-                dt = datetime.fromisoformat(raw_date.replace('Z', '+08:00'))
+                dt = datetime.fromisoformat(raw_date)
                 formatted_date = dt.strftime('%Y-%m-%d %H:%M:%S')
                 
                 commit_msg = c['commit']['message'].split('\n')[0]

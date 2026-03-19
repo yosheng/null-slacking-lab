@@ -1,6 +1,6 @@
 import requests
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 # 配置
 USER = "Neal75418"
@@ -30,6 +30,7 @@ def check_commits():
     
     repos = get_active_repos()
     all_commit_messages = [] # 用來存儲所有格式化後的提交資訊
+    tz_utc_8 = timezone(timedelta(hours=8))
 
     for repo in repos:
         url = f"https://api.github.com/repos/{USER}/{repo}/commits"
@@ -41,8 +42,9 @@ def check_commits():
             for c in commits:
                 # 解析時間與格式化
                 raw_date = c['commit']['author']['date']
-                dt = datetime.fromisoformat(raw_date)
-                formatted_date = dt.strftime('%Y-%m-%d %H:%M:%S')
+                dt_utc = datetime.fromisoformat(raw_date.replace('Z', '+00:00'))
+                dt_tw = dt_utc.astimezone(tz_utc_8)
+                formatted_date = dt_tw.strftime('%Y-%m-%d %H:%M:%S')
                 
                 commit_msg = c['commit']['message'].split('\n')[0]
                 

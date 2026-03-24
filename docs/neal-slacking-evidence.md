@@ -40,7 +40,7 @@
 
 ![](assets/neal-slacking-evidence/2026-03-24-21-20-32-image.png)
 
-## ![](assets/neal-slacking-evidence/2026-03-24-21-22-22-image.png)
+![](assets/neal-slacking-evidence/2026-03-24-21-22-22-image.png)
 
 最後我實在忍不了在 Line 群說話，他才開始工作
 
@@ -58,9 +58,9 @@
 
 ![](assets/neal-slacking-evidence/2026-03-24-21-41-19-image.png)
 
-## ![](assets/neal-slacking-evidence/2026-03-24-21-41-52-image.png)
+![](assets/neal-slacking-evidence/2026-03-24-21-41-52-image.png)
 
-## ![](assets/neal-slacking-evidence/2026-03-24-21-42-09-image.png)
+![](assets/neal-slacking-evidence/2026-03-24-21-42-09-image.png)
 
 一心三用就是沒用在公司專案上?
 
@@ -93,10 +93,6 @@
 然後公司這邊沒任何提交?
 
 ![](assets/neal-slacking-evidence/2026-03-24-21-50-29-image.png)
-
-# 
-
-
 
 ## 3/17
 

@@ -28,6 +28,76 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 3/24
+
+早上例會報告: 昨天看了下Wilson說的平台後台開發的部分，我寫計畫文件，回頭再跟Wilson討論
+
+結果一直在做自己的專案?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-18-34-image.png)
+
+一心只有自己專案，到3點多還在多!
+
+![](assets/neal-slacking-evidence/2026-03-24-21-20-32-image.png)
+
+## ![](assets/neal-slacking-evidence/2026-03-24-21-22-22-image.png)
+
+最後我實在忍不了在 Line 群說話，他才開始工作
+
+![](assets/neal-slacking-evidence/2026-03-24-21-24-58-image.png)
+
+## 3/23
+
+今天我請假，他一整天都在自己專案? 公司這邊只有審核 Kevin 提交的程式? 
+
+![](assets/neal-slacking-evidence/2026-03-24-21-26-06-image.png)
+
+![](assets/neal-slacking-evidence/2026-03-24-21-40-51-image.png)
+
+一整天都在做自己的東西?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-41-19-image.png)
+
+## ![](assets/neal-slacking-evidence/2026-03-24-21-41-52-image.png)
+
+## ![](assets/neal-slacking-evidence/2026-03-24-21-42-09-image.png)
+
+一心三用就是沒用在公司專案上?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-42-52-image.png)
+
+![](assets/neal-slacking-evidence/2026-03-24-21-43-16-image.png)
+
+## 3/20
+
+早上例會報告: 昨天把一次性的那個功能應該算是丟到JsonData功能，應該有完成，我會推到Dev上面
+
+今天沒說做什麼，開完會才處理一下事情
+
+![](assets/neal-slacking-evidence/2026-03-24-21-46-33-image.png)
+
+但早上我看都在做自己專案?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-45-12-image.png)
+
+## 3/18
+
+早上例會報告: 昨天再看Dev問題，我昨天看是沒有問題的，那個問題有派發下去，昨天是改 Tab 問題
+
+下午又開始做自己的東西?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-49-22-image.png)
+
+![](assets/neal-slacking-evidence/2026-03-24-21-49-46-image.png)
+
+然後公司這邊沒任何提交?
+
+![](assets/neal-slacking-evidence/2026-03-24-21-50-29-image.png)
+
+# 
+
+
+
 ## 3/17
 
 早上例會報告: 昨天把臨時補助改成一次性補助，我已經改好，昨天Phill說的問題，可能要請Dennis提供SSH的Key查看問題

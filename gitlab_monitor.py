@@ -122,9 +122,10 @@ def build_event_record(event: dict) -> dict:
     """
     project_name = get_project_name(event.get("project_id"))
     action = event.get("action_name", "unknown")
+    # 優先取 push_data.commit_title，其次 target_title，最後 fallback
     target = (
-        event.get("target_title")
-        or event.get("push_data", {}).get("commit_title")
+        event.get("push_data", {}).get("commit_title")
+        or event.get("target_title")
         or "查看詳細動態"
     )
     sent_at = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
@@ -144,11 +145,8 @@ def format_message(new_records: dict) -> str:
     count = len(new_records)
     lines = [f"🕵️‍♂️ **【{USER_ID}】活動報告（共 {count} 筆）**"]
     for record in new_records.values():
-        lines.append(
-            f"- 專案: `{record['project_name']}` "
-            f"| 動作: `{record['action']}` "
-            f"| 內容: {record['target']}"
-        )
+        lines.append(f"- 專案: `{record['project_name']}`")
+        lines.append(f"  - 動作: `{record['action']}` | 內容: {record['target']}")
     return "\n".join(lines)
 
 

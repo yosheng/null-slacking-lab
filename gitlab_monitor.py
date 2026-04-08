@@ -128,11 +128,13 @@ def build_event_record(event: dict) -> dict:
         or event.get("target_title")
         or "查看詳細動態"
     )
+    created_at = datetime.fromisoformat(event["created_at"]).astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
     sent_at = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
     return {
         "project_name": project_name,
         "action": action,
         "target": target,
+        "created_at": created_at,
         "sent_at": sent_at,
     }
 
@@ -145,7 +147,7 @@ def format_message(new_records: dict) -> str:
     count = len(new_records)
     lines = [f"🕵️‍♂️ **【{USER_ID}】活動報告（共 {count} 筆）**"]
     for record in new_records.values():
-        lines.append(f"- 專案: `{record['project_name']}`")
+        lines.append(f"- 專案: `{record['project_name']}`| 時間: {record['created_at']}")
         lines.append(f"  - 動作: `{record['action']}` | 內容: {record['target']}")
     return "\n".join(lines)
 

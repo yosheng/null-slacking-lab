@@ -71,21 +71,22 @@ def save_record(record: dict, date_str: str = None) -> bool:
 
 # ==================== GitLab API ====================
 
-def get_project_name(project_id) -> str:
-    """將 Project ID 轉換為專案名稱，失敗時回傳 ID 字串。"""
+def get_project_info(project_id) -> tuple[str, str]:
+    """將 Project ID 轉換為 (專案名稱, path_with_namespace)，失敗時回傳 fallback。"""
     if not GITLAB_TOKEN:
-        return f"ID:{project_id}"
+        return f"ID:{project_id}", ""
 
     url = f"{GITLAB_URL}/api/v4/projects/{project_id}"
     headers = {"PRIVATE-TOKEN": GITLAB_TOKEN}
     try:
         resp = requests.get(url, headers=headers, timeout=10)
         if resp.status_code == 200:
-            return resp.json().get("name_with_namespace", f"ID:{project_id}")
+            data = resp.json()
+            return data.get("name_with_namespace", f"ID:{project_id}"), data.get("path_with_namespace", "")
         logging.warning(f"查詢專案 {project_id} 回傳 {resp.status_code}")
     except Exception as e:
         logging.error(f"無法獲取專案 {project_id} 名稱: {e}")
-    return f"ID:{project_id}"
+    return f"ID:{project_id}", ""
 
 
 def fetch_gitlab_events(after_date: str) -> list:
@@ -120,20 +121,24 @@ def build_event_record(event: dict) -> dict:
     將單筆 GitLab event 轉為持久化用的記錄格式。
     回傳：{ "project_name", "action", "target", "sent_at" }
     """
-    project_name = get_project_name(event.get("project_id"))
+    project_name, project_path = get_project_info(event.get("project_id"))
     action = event.get("action_name", "unknown")
+    push_data = event.get("push_data", {})
     # 優先取 push_data.commit_title，其次 target_title，最後 fallback
     target = (
-        event.get("push_data", {}).get("commit_title")
+        push_data.get("commit_title")
         or event.get("target_title")
         or "查看詳細動態"
     )
+    commit_to = push_data.get("commit_to")
+    commit_url = f"{GITLAB_URL}/{project_path}/-/commit/{commit_to}" if commit_to and project_path else ""
     created_at = datetime.fromisoformat(event["created_at"]).astimezone(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
     sent_at = datetime.now(TW_TZ).strftime("%Y-%m-%d %H:%M:%S")
     return {
         "project_name": project_name,
         "action": action,
         "target": target,
+        "commit_url": commit_url,
         "created_at": created_at,
         "sent_at": sent_at,
     }
@@ -148,7 +153,8 @@ def format_message(new_records: dict) -> str:
     lines = [f"🕵️‍♂️ **【{USER_ID}】活動報告（共 {count} 筆）**"]
     for record in new_records.values():
         lines.append(f"- 專案: `{record['project_name']}`| 時間: {record['created_at']}")
-        lines.append(f"  - 動作: `{record['action']}` | 內容: {record['target']}")
+        commit_link = f" [🔗]({record['commit_url']})" if record.get("commit_url") else ""
+        lines.append(f"  - 動作: `{record['action']}` | 內容: {record['target']}{commit_link}")
     return "\n".join(lines)
 
 

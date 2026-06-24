@@ -28,6 +28,14 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 6/24
+
+早上例會報告: 我昨天主要是開發後台部分，今天會把Dev推到SIT上測試
+
+下午還是空做自己專案?
+
+![](assets/neal-slacking-evidence/2026-06-24-22-16-10-image.png)
+
 ## 6/23
 
 早上例會報告: 昨天截圖發現 DisplayName 同步有問題, 我也修復了, 我會在看哪裡有問題把ReleaseNote補完，解析度問題會有限制最大最小的問題

@@ -28,6 +28,18 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 7/22
+
+早上例會報告: 昨天在做後台的部分，今天會繼續做後台的部分，就使用者人數管控的部分
+
+下午還是做自己專案?
+
+![](assets/neal-slacking-evidence/2026-07-23-00-36-22-image.png)
+
+看不懂再改什麼
+
+![](assets/neal-slacking-evidence/2026-07-23-00-37-44-image.png)
+
 ## 6/24
 
 早上例會報告: 我昨天主要是開發後台部分，今天會把Dev推到SIT上測試

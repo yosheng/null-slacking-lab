@@ -28,6 +28,24 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 7/27
+
+早上例會報告: 上周五比較多時間開會，今天會去調整日誌問題，使用者人數管控要 BF 提供API，我不知道 Peter 提供API了沒，除了後台以外都完成了
+
+整天都在做自己專案?
+
+![](assets/neal-slacking-evidence/2026-07-27-22-00-18-image.png)
+
+![](assets/neal-slacking-evidence/2026-07-27-21-59-58-image.png)
+
+公司這邊提交一堆 AI 寫的東西，也不知道在弄啥?
+
+![](assets/neal-slacking-evidence/2026-07-27-22-02-54-image.png)
+
+完全看不懂在幹嘛
+
+![](assets/neal-slacking-evidence/2026-07-27-22-01-05-image.png)
+
 ## 7/22
 
 早上例會報告: 昨天在做後台的部分，今天會繼續做後台的部分，就使用者人數管控的部分

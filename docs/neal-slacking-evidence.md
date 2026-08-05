@@ -28,6 +28,14 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 8/5
+
+早上例會報告: 昨天把切換角色的ReleaseNote補上去，已經合併Dev目前Dev可以切換角色，今天把Dev部署到sit上面看
+
+又是一整天做自己專案，公司內部沒有任何提交?
+
+![](assets/neal-slacking-evidence/2026-08-05-23-34-35-image.png)
+
 ## 7/27
 
 早上例會報告: 上周五比較多時間開會，今天會去調整日誌問題，使用者人數管控要 BF 提供API，我不知道 Peter 提供API了沒，除了後台以外都完成了

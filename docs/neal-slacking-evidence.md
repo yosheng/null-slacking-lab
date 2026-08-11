@@ -28,6 +28,30 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 8/11
+
+早上例會報告: 昨天有看到UAT有問題，我有跟Peter溝通，昨天師姐提出前端問題，再看要不要修復。
+
+一整天都在用 AI 寫 Doc?
+
+![](assets/neal-slacking-evidence/2026-08-11-22-02-00-image.png)  
+
+不知道上班是炒股還是寫文件，真心看不懂
+
+![](assets/neal-slacking-evidence/2026-08-11-22-02-40-image.png)
+
+## 8/10
+
+早上例會報告: 上周五把Java部分推到UAT上面，W反映自動化測試也麻煩 
+
+一整天沒有任何提交
+
+![](assets/neal-slacking-evidence/2026-08-11-21-59-40-image.png)
+
+但是有空做自己的專案?
+
+![](assets/neal-slacking-evidence/2026-08-11-22-00-46-image.png)
+
 ## 8/5
 
 早上例會報告: 昨天把切換角色的ReleaseNote補上去，已經合併Dev目前Dev可以切換角色，今天把Dev部署到sit上面看

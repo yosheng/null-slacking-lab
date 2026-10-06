@@ -28,6 +28,30 @@
 
 ![](assets/neal-slacking-evidence/2026-03-13-20-01-09-image.png) 
 
+## 10/6
+
+早上例會報告: 昨天 BizForm 有更新東西是破壞性更新，Dev API 要調整需要兩天，變成有些參數一定要帶才正常。
+
+但具體也不說清楚是什麼變更? 然後沒空做自己本次衝刺的內容有空做自己東西? 關鍵這還是遊戲
+
+![](assets/neal-slacking-evidence/2026-10-07-00-16-46-image.png)
+
+公司內部提交的只有，關鍵是 LLM 都說明不著急他卻一直弄?
+
+![](assets/neal-slacking-evidence/2026-10-07-00-18-29-image.png)
+
+## 10/5
+
+早上例會報告: 上周五處理 LLM 問題，今天會處理新進度
+
+下午還有空做自己遊戲?
+
+![](assets/neal-slacking-evidence/2026-10-07-00-19-51-image.png)
+
+新進度是什麼?
+
+![](assets/neal-slacking-evidence/2026-10-07-00-20-19-image.png)
+
 ## 8/11
 
 早上例會報告: 昨天有看到UAT有問題，我有跟Peter溝通，昨天師姐提出前端問題，再看要不要修復。
